@@ -1,0 +1,1 @@
+Stores five 128-dimensional standard features for each label
