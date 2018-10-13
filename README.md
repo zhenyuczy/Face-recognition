@@ -27,21 +27,21 @@ Under Ubuntu, it is recommended that you choose English (Chinese display sometim
 # UI Display 
 Windows (The program can also run under Ubuntu system)
 ## Login
-![image](https://github.com/finalacm/Face-Recognition/blob/master/ChooseUI.png)</br>
-![image](https://github.com/finalacm/Face-Recognition/blob/master/LoginUI.png)
+![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/ChooseUI.png)</br>
+![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/LoginUI.png)
 ## Train
-![image](https://github.com/finalacm/Face-Recognition/blob/master/TrainUI_1.png)</br>
-![image](https://github.com/finalacm/Face-Recognition/blob/master/TrainUI_2.png)
+![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/TrainUI_1.png)</br>
+![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/TrainUI_2.png)
 ## Retrieval 
 Search the images and display them on the right side of the UI</br>
-![image](https://github.com/finalacm/Face-Recognition/blob/master/RetrievalUI.png)
+![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/RetrievalUI.png)
 ## Predict 
 Visualize the result of the image on the right side of the UI</br>
-![image](https://github.com/finalacm/Face-Recognition/blob/master/predictUI_1.png)
+![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/predictUI_1.png)
 
 
 # Notebook Display
-Please see [face_recognition_process.ipynb](https://github.com/finalacm/Face-Recognition/blob/master/face_recognition_process.ipynb). It will help you to understand my code.
+Please see [face_recognition_process.ipynb](https://github.com/zhenyuczy/Face-Recognition/blob/master/face_recognition_process.ipynb). It will help you to understand my code.
 
 # How to use it
 - Download my resources and place them in the folder `resources`
@@ -60,19 +60,37 @@ Please see [face_recognition_process.ipynb](https://github.com/finalacm/Face-Rec
 - If you need to use the UI, open it in PyCharm IDE and run `ui_with_tkinter/choose_language.py`.
 
 # Folder Structure
-models/</br>
-----------20170512-110547/</br>
---------------------20170512-110547.pd</br>
---------------------model-20170512-110547.ckpt-250000.data-00000-of-00001</br>
---------------------model-20170512-110547.ckpt-250000.index</br>
---------------------model-20170512-110547.meta</br>
-----------mtcnn/</br>
---------------------det1.npy</br>
---------------------det2.npy</br> 
---------------------det3.npy</br>
-----------my_models/</br>
-----------shape_predictor_68_face_landmarks.dat</br>
-
+```
+models/
+----------20170512-110547/
+--------------------20170512-110547.pd
+--------------------model-20170512-110547.ckpt-250000.data-00000-of-00001
+--------------------model-20170512-110547.ckpt-250000.index
+--------------------model-20170512-110547.meta
+----------mtcnn/
+--------------------det1.npy
+--------------------det2.npy
+--------------------det3.npy
+----------my_models/
+----------shape_predictor_68_face_landmarks.dat
+dataset/
+----------train_english/
+--------------------XiaoMing/
+------------------------------XiaoMing1.jpg
+------------------------------...
+--------------------XiaoHu/
+------------------------------XiaoHu1.jpg
+------------------------------...
+--------------------...
+----------train_chinese/
+--------------------小明/
+------------------------------XiaoMing1.jpg
+------------------------------...
+--------------------小虎/
+------------------------------XiaoHu1.jpg
+------------------------------...
+--------------------...
+```
 # Reference
 [1] [MTCNN](https://kpzhang93.github.io/MTCNN_face_detection_alignment/)</br>
 [2] [FaceNet](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf)
