@@ -1,3 +1,5 @@
+# 中文请参考我的[CSDN博客](https://blog.csdn.net/chenzhenyu123456/article/details/80751477)
+
 # Introduction
 This is a Face Recognition demo that I combined with MTCNN<sup>[1]</sup> and FaceNet<sup>[2]</sup> under the PyCharm IDE. It can train any dataset and implement face verification, face recognition and face search functions. Finally, I used Tkinter to make the interface, and the user could easily operate it. Anyway if you want to learn face recognition or Tkinter UI, I believe my project will help you.
 
