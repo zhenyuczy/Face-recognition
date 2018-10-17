@@ -1,7 +1,7 @@
 # 中文请参考我的[CSDN博客](https://blog.csdn.net/chenzhenyu123456/article/details/80751477)
 
 # Introduction
-This is a Face Recognition demo that I combined with MTCNN<sup>[1]</sup> and FaceNet<sup>[2]</sup> under the PyCharm IDE. It can train any dataset and implement face verification, face recognition and face search functions. Finally, I used Tkinter to make the interface, and the user could easily operate it. Anyway if you want to learn face recognition or Tkinter UI, I believe my project will help you.
+This is a Face-recognition demo that I combined with MTCNN<sup>[1]</sup> and FaceNet<sup>[2]</sup> under the PyCharm IDE. It can train any dataset and implement face verification, face recognition and face search functions. Finally, I used Tkinter to make the interface, and the user could easily operate it. Anyway if you want to learn face recognition or Tkinter UI, I believe my project will help you.
 
 # Results
 - Face Verification (Verification `ChenZhenyu`)
@@ -29,21 +29,21 @@ Under Ubuntu, it is recommended that you choose English (Chinese display sometim
 # UI Display 
 Windows (The program can also run under Ubuntu system)
 ## Login
-![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/ChooseUI.png)</br>
-![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/LoginUI.png)
+![image](https://github.com/zhenyuczy/Face-recognition/blob/master/ChooseUI.png)</br>
+![image](https://github.com/zhenyuczy/Face-recognition/blob/master/LoginUI.png)
 ## Train
-![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/TrainUI_1.png)</br>
-![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/TrainUI_2.png)
+![image](https://github.com/zhenyuczy/Face-recognition/blob/master/TrainUI_1.png)</br>
+![image](https://github.com/zhenyuczy/Face-recognition/blob/master/TrainUI_2.png)
 ## Retrieval 
 Search the images and display them on the right side of the UI</br>
-![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/RetrievalUI.png)
+![image](https://github.com/zhenyuczy/Face-recognition/blob/master/RetrievalUI.png)
 ## Predict 
 Visualize the result of the image on the right side of the UI</br>
-![image](https://github.com/zhenyuczy/Face-Recognition/blob/master/predictUI_1.png)
+![image](https://github.com/zhenyuczy/Face-recognition/blob/master/predictUI_1.png)
 
 
 # Notebook Display
-Please see [face_recognition_process.ipynb](https://github.com/zhenyuczy/Face-Recognition/blob/master/face_recognition_process.ipynb). It will help you to understand my code.
+Please see [face_recognition_process.ipynb](https://github.com/zhenyuczy/Face-recognition/blob/master/face_recognition_process.ipynb). It will help you to understand my code.
 
 # How to use it
 - Download my resources and place them in the folder `resources`
